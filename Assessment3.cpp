@@ -1,7 +1,7 @@
 #pragma once
 
 #include <iostream>
-#include "vector"
+#include <vector>
 #include "Book.h"
 #include "BookManager.h"
 
@@ -18,9 +18,9 @@ vector<Book> initBooks()
 
 vector<Book> initBooksIncorrectly()
 {
-	Book book1("Rowling, J. K.", "Harry Potter and the Sorcerer's Stone", "9781338878929", true);
-	Book book2("Robert C. Martin", "Clean Code: A Handbook of Agile Software Craftsmanship", "9780132350884", true);
-	Book book3("J.R.R. Tolkien", "The Lord Of The Rings Deluxe Edition", "9780544273443", true);
+	Book book1("Rowling, J. K.", "Harry Potter and the Sorcerer's Stone", "978133887892", true);
+	Book book2("Robert C. Martin", "Clean Code: A Handbook of Agile Software Craftsmanship", "978013235088", true);
+	Book book3("J.R.R. Tolkien", "The Lord Of The Rings Deluxe Edition", "978054427344", true);
 
 	return { book1, book2, book3 };
 }
